@@ -24,24 +24,26 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0px;
     border: 1px solid black;
+   
 }
 
 .abs{
     display: inline-block;
     position: relative;
     margin-top: 25px;
+    width: calc(100% / 3);
+    padding: 6px;
 }
 
 .foto{
-    width: 95%;
+    width: 100%;
     position: relative;
 }
 
 .cuore{
     position: absolute;
-    right: 17px;
+    right: 0px;
     top: 0;
     margin-top: 10px;
     background-color: white;
@@ -58,9 +60,7 @@
 
 .percent{
     background-color: rgb(250, 76, 53);
-    text-align: center;
     padding: 5px;
-    width: 60%;
     color: white;
 }
 
@@ -68,10 +68,9 @@
     background-color: green;
     padding: 5px;
     color: white;
-    margin-left: 5px;
 }
-
-input[type="checkbox"]:checked +label{
+*/
+input[type="checkbox"]:checked + label{
     color: red;
   }
 
@@ -84,7 +83,14 @@ input[type="checkbox"]:checked +label{
     justify-content: space-between;
 }
 
+.flex-wrap{
+    display: flex;
+    flex-flow: row wrap;
+}
 
+.debug{
+    border: 1px solid black;
+}
 
 
 /*  
