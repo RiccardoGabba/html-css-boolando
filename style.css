@@ -36,12 +36,13 @@
 
 .foto{
     width: 95%;
+    position: relative;
 }
 
 .cuore{
     position: absolute;
-    right: auto;
-    top: auto;
+    right: 17px;
+    top: 0;
     margin-top: 10px;
     background-color: white;
     padding: 10px;
