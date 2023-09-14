@@ -1,34 +1,37 @@
-*{
+* {
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
 
-.barra{
+.barra {
     background-color: rgb(255, 123, 0);
-    min-height: 50%;
-    
+    ;
+
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-.logo{
+.logo {
     height: 30px;
 }
 
-.scritte-barra{
+.scritte-barra {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-flow: wrap;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid black;
-   
+
 }
 
-.abs{
+.abs {
     display: inline-block;
     position: relative;
     margin-top: 25px;
@@ -36,12 +39,12 @@
     padding: 6px;
 }
 
-.foto{
+.foto {
     width: 100%;
     position: relative;
 }
 
-.cuore{
+.cuore {
     position: absolute;
     right: 0px;
     top: 0;
@@ -51,53 +54,54 @@
     font-size: 35px;
 }
 
-.sconto{
+.sconto {
     position: absolute;
     left: 0px;
     bottom: 0px;
     margin-bottom: 20px;
 }
 
-.percent{
+.percent {
     background-color: rgb(250, 76, 53);
     padding: 5px;
     color: white;
 }
 
-.sostenibilità{
+.sostenibilità {
     background-color: green;
     padding: 5px;
     color: white;
 }
 
-input[type="checkbox"]:checked + label{
+input[type="checkbox"]:checked+label {
     color: red;
-  }
+}
 
-  input[type="checkbox"]{
+input[type="checkbox"] {
     display: none;
-  }
+}
 
-.flex-f{
+.flex-f {
     display: flex;
     justify-content: space-between;
 }
 
-.flex-wrap{
+.flex-wrap {
     display: flex;
     flex-flow: row wrap;
 }
 
-.debug{
+.debug {
     border: 1px solid black;
 }
 
-.linea{
+.linea {
     text-decoration: line-through;
 }
 
-.colore-prezzo{
+.colore-prezzo {
     color: red;
 }
+
 /*  
    */
