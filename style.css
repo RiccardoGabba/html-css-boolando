@@ -6,8 +6,7 @@
 
 .barra {
     background-color: rgb(255, 123, 0);
-    ;
-
+    
     top: 0;
     left: 0;
     width: 100%;
@@ -101,6 +100,10 @@ input[type="checkbox"] {
 
 .colore-prezzo {
     color: red;
+}
+
+.foto:hover {
+    background-image: url(img/1b.webp);
 }
 
 /*  
